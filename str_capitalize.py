@@ -1,3 +1,3 @@
-my_name = "yarED miHrEt"
+bbbbb = "yarED miHrEt"
 
-print(my_name.capitalize())
+print(bbbbb.capitalize())
