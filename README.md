@@ -58,4 +58,8 @@ print(name.replace("my","his")) # i expect this to print "his name" by replacing
 ## str.strip(): it is a string method that removes leading and trailing whitespace
 # example:-
 name = " hello measter "
+<<<<<<< HEAD
 print(name.strip()) # i expect it to print "hellow measter" by removing the whitespaces
+=======
+print(name.strip()) # i expect it to print "hellow measter" by removing the whitespaces
+>>>>>>> 1aca5206b9c9258f562a12fe4fb54f6919427f51
