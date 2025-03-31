@@ -44,3 +44,18 @@ print(name.starswith("i'm")) # i expect this to print true because i'm is the st
 # example :-
 name = "yishak is lazy"
 print(name.index("lazy")) # i expect this to print 9 because a is the smallest index in the sub string
+
+## str.count(): it is a string method that counts the number of occurances in a substring and string
+# example:-
+name = "apple"
+print(name.count("p")) # i expect this to print 2 because p occured 2 times in the string
+
+## str.replace(): it is a string method that replaces all occurrences of a substring with another substring
+# example:-
+name = "my name"
+print(name.replace("my","his")) # i expect this to print "his name" by replacing my by his
+
+## str.strip(): it is a string method that removes leading and trailing whitespace
+# example:-
+name = " hello measter "
+print(name.strip()) # i expect it to print "hellow measter" by removing the whitespaces
