@@ -62,4 +62,18 @@ name = " hello measter "
 print(name.strip()) # i expect it to print "hellow measter" by removing the whitespaces
 =======
 print(name.strip()) # i expect it to print "hellow measter" by removing the whitespaces
+## str.join:  Joins elements of an iterable (e.g., list) into a single string using the string as a separator.
+# example:- 
+name = "me","i"
+print(" and ".join(name)) #this will print "me and i"
+
+## str.isalpha:  Checks if all characters in the string are alphabetic (letters)
+# example:- 
+name = "bc23"
+print(name.isalpha()) # this will print false because there are caracters other than alphabets on the string
+
+## str.digit():-  Checks if all characters in the string are digit
+# example :-
+name = "1234"
+print(name.isdigit()) # this will print true because the string is consistes of digit only
 >>>>>>> 1aca5206b9c9258f562a12fe4fb54f6919427f51
