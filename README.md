@@ -72,6 +72,22 @@ print(" and ".join(name)) #this will print "me and i"
 name = "bc23"
 print(name.isalpha()) # this will print false because there are caracters other than alphabets on the string
 
+## str.isspace():- Checks if all characters in the string are whitespace.
+# example :-
+name = " "
+print(name.isspace()) #this will print true because the string cosistes space only
+
+## str.isalnum():- Checks if all characters in the string are alphanumeric (letters or digits).
+# example :-
+name = "me123"
+print(name.isalnum()) # this will print true because the string cosistes number and alphabetes only
+
+## str.format():- Formats the string by replacing placeholders  {}  with specified values.
+# example:-
+name = "hi {}"
+print(name.format("mr")) # this will print "hi mr" by formating {} and replacing it by "mr"
+
+
 ## str.digit():-  Checks if all characters in the string are digit
 # example :-
 name = "1234"
