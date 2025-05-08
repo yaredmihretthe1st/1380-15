@@ -92,4 +92,15 @@ print(name.format("mr")) # this will print "hi mr" by formating {} and replacing
 # example :-
 name = "1234"
 print(name.isdigit()) # this will print true because the string is consistes of digit only
+
+## str.lower() :- Converts all characters in the string to lowercase.
+# example:
+name = "WHITE"
+print(name.lower()) # this will print "white"
+
+## str.upper():-Converts all characters in the string to uppercase
+# example:
+name = "black"
+print(name.upper()) # this will print  "BLACK"
+
 >>>>>>> 1aca5206b9c9258f562a12fe4fb54f6919427f51
